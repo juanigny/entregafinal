@@ -1,0 +1,10 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-size: 16px; /*1 rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, var(--blanco) 100% );
+}

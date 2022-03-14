@@ -1,0 +1,35 @@
+/** Sevicios **/
+
+@media (min-width: 768px) {
+    .servicios {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 5rem;
+      }
+  }
+  
+  .servicio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .servicio h3 {
+      color: var(--secundario);
+      font-weight: normal;
+  }
+  
+  .servicio p {
+      line-height: 2;
+  }
+  
+  .servicio .iconos {
+      height: 10rem;
+      width: 10rem;
+      background: var(--primario);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
